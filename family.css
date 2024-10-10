@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Bubbles', system-ui, sans-serif; /* Added fallback fonts */
+    background-color: rgb(155, 201, 158);
+}
+
+.main-title {
+    font-size: 130px;
+    color:rgb(60,97,80); 
+}
+
+.family-members-container{
+    width: 1000px;
+    height: 680px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.family-member{
+    display:flex;
+    width: 450px;
+    height: 100px;
+    
+}
+
+.member-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.member-info{
+    font-size:18px;
+    color:rgb(60,97,80); 
+}
+
+.member-infos{
+    position: relative;
+    right:-40px;
+    width: 200px;
+
+}
+.all-rights-text{
+    font-size: 25px;
+    color:rgb(60,97,80);
+    position: relative;
+    top:-90px;
+    right:-530px;
+}
+

@@ -1,0 +1,15 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Rubik Bubbles', system-ui, sans-serif; /* Added fallback fonts */
+      background-color: rgb(155, 201, 158);
+}
+
+.hobbies-title{
+    font-size: 110px;
+    color:rgb(60,97,80); 
+    margin-left: 30px;
+}
+
+
