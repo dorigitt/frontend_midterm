@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Bubbles', system-ui, sans-serif; /* Added fallback fonts */
+    background-color: rgb(155, 201, 158);
+}
+
+.contact-photo{
+    width: 140px;
+    height: 140px;
+
+}
+
+.contact-title{
+    font-size: 120px;
+    color:rgb(60,97,80); 
+    margin-left:30px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.sm-logo{
+    width: 100px;
+    height: 100px;
+
+}
+
+.sm-link{
+    position:relative;
+    top:-48px;
+    font-size:30px;
+    margin-left:20px;
+    color:rgb(60,97,80); 
+}
+.social-media{
+    margin-bottom: 20px;
+}
+.sm-container{
+   margin-top: 60px;
+    margin-left: 40px;
+    
+}
+
+.contact-info-title{
+    font-size:40px;
+    color:rgb(60,97,80); 
+
+}
+
+li{
+    font-size:34px;
+    color:rgb(60,97,80); 
+}
+ul{
+    margin-top:20px;
+}
+
+.parent-container{
+    display:flex;
+}
+
+.contact-info-container{
+    position:relative;
+    right:-200px;
+    bottom:-67px;
+}
+
+.all-rights-text{
+    font-size: 25px;
+    color:rgb(60,97,80);
+    position: relative;
+    bottom:-70px;
+    right:-530px;
+}
+
+@media(max-width:340px){
+    .contact-title{
+        font-size:70px;
+        color:rgb(60,97,80); 
+        margin-left:30px;
+    }
+    .contact-photo{
+        width: 90px;
+        height: 90px;
+        margin-left: 110px;
+    }
+    .parent-container{
+        display:block;
+    }
+
+    .social-media{
+        margin-bottom: 20px;
+        width: 500px;
+    }
+    .sm-link{
+        
+        font-size:47px;
+        
+    }
+
+    .contact-info-title{
+        font-size:40px;
+        color:rgb(60,97,80); 
+    
+    }
+    
+    li{
+        font-size:30px;
+        color:rgb(60,97,80); 
+    }
+    ul{
+        margin-top:20px;
+        margin-left: 40px;
+    }
+    .contact-info-container{
+        position:relative;
+        right:-30px;
+        bottom:-67px;
+    }
+
+    .all-rights-text{
+       display: none;
+    }
+}
+
+@media(max-width:768px){
+    .contact-title{
+        font-size:60px;
+        color:rgb(60,97,80); 
+        margin-left:30px;
+        margin-top: 30px;
+    }
+    .social-media{
+        margin-bottom: 20px;
+        width: 500px;
+    }
+    .sm-link{
+        font-size:47px;
+    }
+    .all-rights-text{
+        font-size: 30px;
+        position: relative;
+        right:-370px;
+     }
+
+     .contact-info-container{
+        position:relative;
+        right:-14px;
+        bottom:-67px;
+    }
+}
+
+@media(max-width:1024px){
+    .social-media{
+        margin-bottom: 20px;
+        width: 500px;
+    }
+    .contact-info-container{
+        position:relative;
+        right:-14px;
+        bottom:-67px;
+    }
+    .all-rights-text{
+        font-size: 30px;
+        position: relative;
+        right:-370px;
+     }
+
+}

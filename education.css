@@ -67,3 +67,140 @@
     color:rgb(60,97,80); 
     font-size:30px;
 }
+
+@media(max-width:340px){
+    .box1{
+        width:680px;  
+        height: 130px;
+        background-color: rgb(201,159,91); /* Tomato color */
+        border-radius: 10px;
+        color:rgb(60,97,80);
+        font-size: 28px;
+        padding:10px;
+        margin-left:3px;
+    }
+    
+    .box2{
+        width:680px;  
+        height: 130px;
+        background-color: rgb(244,123,99); /* Tomato color */
+        border-radius: 10px;
+        color:rgb(175,68,68);
+        font-size: 28px;
+        padding:10px;
+        margin-left:3px;
+        margin-top: 15px;
+    }
+    
+    .two-boxes{
+        display: block;
+        justify-content: space-between;
+        margin-top: 18px;
+    }
+
+    .parent-container{
+        display: block;
+    }
+
+    .education-list{
+        margin-left:70px;
+        margin-top:50px;
+        width: 600px;
+    }
+    
+    .edu-list-item{
+        color:rgb(60,97,80); 
+        font-size:34px;
+    }
+    .profile-picture{
+        width: 700px;
+        height: 500px;
+        border-radius: 20px;
+        margin-left: 3px;
+    }
+}
+
+@media(max-width:768px){
+    .education-title{
+        font-size: 100px;
+        color:rgb(60,97,80); 
+        margin-left: 30px;
+    
+    }
+    .parent-container{
+        display: block;
+    }
+    .box1{
+        width:680px;  
+        height: 130px;
+        background-color: rgb(201,159,91); /* Tomato color */
+        border-radius: 10px;
+        color:rgb(60,97,80);
+        font-size: 28px;
+        padding:10px;
+        margin-left:3px;
+    }
+    
+    .box2{
+        width:680px;  
+        height: 130px;
+        background-color: rgb(244,123,99); /* Tomato color */
+        border-radius: 10px;
+        color:rgb(175,68,68);
+        font-size: 28px;
+        padding:10px;
+        margin-left:3px;
+        margin-top: 15px;
+    }
+    
+    .two-boxes{
+        display: block;
+        justify-content: space-between;
+        margin-top: 18px;
+    }
+    .profile-picture{
+        width: 700px;
+        height: 500px;
+        border-radius: 20px;
+        margin-left: 3px;
+    }
+}
+
+@media(max-width:1024px){
+    .profile-picture{
+        width:486px;
+        height: 320px;
+        border-radius: 20px;
+        margin-left: 3px;
+    }
+
+    .box1{
+        width:340px;  
+        height: 130px;
+        background-color: rgb(201,159,91); /* Tomato color */
+        border-radius: 10px;
+        color:rgb(60,97,80);
+        font-size: 22px;
+        padding:10px;
+        margin-left:3px;
+    }
+    
+    .box2{
+        width:340px;  
+        height: 130px;
+        background-color: rgb(244,123,99); /* Tomato color */
+        border-radius: 10px;
+        color:rgb(175,68,68);
+        font-size: 22px;
+        padding:10px;
+        margin-left:3px;
+        
+    }
+    
+    .two-boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 18px;
+    }
+}
+

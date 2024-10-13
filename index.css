@@ -159,44 +159,42 @@ ul{
 
 
   
-/* Base styles (for larger screens or default layout) */
 
-/* Small screens (Mobile) */
 @media (max-width: 340px) {
-    header {
-        padding-top: 10px;
-    }
 
+   
     .nav-links {
-        font-size: 16px; /* Reduce font size */
-        left: -20px;
-        width: 340px;
+        font-size: 10px; 
+     
+        width: 140px;
         display: flex;
-         
+        position: relative;
+        left:-1px;
     }
 
     .pictures-container {
-        width: 100%; /* Full width on small screens */
+        width: 100%;
         padding: 10px;
     }
 
     .profile-picture {
-        width: 100%; /* Make image responsive */
+        width: 100%; 
         border-radius: 10px;
     }
 
     .box1, .box2 {
-        width: 100%; /* Full width for boxes */
-        font-size: 24px; /* Adjust text size */
+        width: 95%; 
+        font-size: 20px; 
+        padding-top:12px;
     }
 
     .two-boxes {
-        display: block; /* Stack the boxes vertically */
+        display: block; 
         margin-top: 10px;
     }
 
     .about-me-text {
-        font-size: 50px; /* Reduce font size */
+        font-size: 50px; 
     }
 
     .general-infos {
@@ -204,52 +202,85 @@ ul{
     }
 
     .main-container {
-        display: block; /* Stack content vertically */
+        display: block; 
     }
 
     .photo-looklike {
-        width: 100%; /* Full width */
+        width: 100%; 
         height: auto;
     }
 
     .three-photos {
-        display: block; /* Stack photos vertically */
+        display: block; 
     }
 
     .all-rights-text {
-        font-size: 18px; /* Adjust font size */
-        text-align: center; /* Center text on small screens */
-        right: 0; /* Remove large right offset */
-        top: 0; /* Adjust positioning */
+        font-size: 18px; 
+        text-align: center; 
+        right: 0; 
+        top: 0; 
     }
 }
 
-/* Medium screens (Tablet) */
 @media (max-width: 768px) {
     .about-me-text {
-        font-size: 100px; /* Adjust font size for tablets */
+        font-size: 100px;
     }
 
     .nav-links {
-        right: -100px; /* Adjust positioning for tablets */
+        right: -100px; 
     }
 
     .profile-picture {
-        width: 80%; /* Make image a bit smaller on tablet */
+        width: 80%; 
     }
 
     .two-boxes {
-        flex-direction: column; /* Stack boxes vertically */
+        flex-direction: column; 
     }
 }
 
 /* Larger screens */
 @media (min-width: 1024px) {
+    body{
+        height:1000px;
+    }
+    
     .nav-links {
-        right: -400px;
+        position: relative;
+        right: -130px;
     }
 
     .about-me-text {
-        font-size: 150px;
+        font-size: 70px;
+        width: 140px;
     }
+    .general-infos{
+        font-size:17px;
+        color:rgb(60,97,80);
+        gap:30px;
+        width: 200px;
+        
+    }
+    .img-looklike{
+        width: 120px;
+        height: 100px;
+        border-radius: 5px;
+        position: relative;
+        bottom:-17px;
+    }
+    
+    .img-looklike-text{
+        font-size:13px;
+    }
+    
+    .three-photos{
+        display: flex;
+    }
+
+    .information-container{
+        position:relative;
+        right:-200px;
+    }
+
 }
